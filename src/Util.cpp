@@ -7,32 +7,32 @@
 #include "App.h"
 #include <cmath>
 
-// render cross on field (boardX, boardY)
-void Util::drawCross(int boardX, int boardY)
+// render cross on board field (row, col)
+void Util::drawCross(int row, int col)
 {
     int fieldW = App::SCREEN_WIDTH/3;
     int fieldH = App::SCREEN_HEIGHT/3;
 
     // top left to bottom right
     SDL_RenderDrawLine(App::getRenderer(),
-        boardY*fieldW, boardX*fieldH,
-        boardY*fieldW+fieldW, boardX*fieldH+fieldH);
+        col*fieldW, row*fieldH,
+        col*fieldW+fieldW, row*fieldH+fieldH);
 
     // top right to bottom left
     SDL_RenderDrawLine(App::getRenderer(),
-        boardY*fieldW, boardX*fieldH+fieldH,
-        boardY*fieldW+fieldW, boardX*fieldH);
+        col*fieldW, row*fieldH+fieldH,
+        col*fieldW+fieldW, row*fieldH);
 }
 
-// render circle on field (boardX, boardY)
-void Util::drawCircle(int boardX, int boardY)
+// render circle on board field (boardX, boardY)
+void Util::drawCircle(int row, int col)
 {
     int fieldW = App::SCREEN_WIDTH/3;
     int fieldH = App::SCREEN_HEIGHT/3;
 
     // calculate circle center
-    int centerX = boardY*fieldW+(fieldW/2);
-    int centerY = boardX*fieldH+(fieldH/2);
+    int centerX = col*fieldW+(fieldW/2);
+    int centerY = row*fieldH+(fieldH/2);
 
     int r = fieldW/2;
 
@@ -41,7 +41,7 @@ void Util::drawCircle(int boardX, int boardY)
     int endY = centerY;
 
     // draw circle.. Multiple straight lines between consecutive
-    // points in the circle
+    // points of the desired circle
     for(double angle=0; angle<2*M_PI; angle+=step)
     {
         int startX = endX;
