@@ -9,8 +9,8 @@
 class Util
 {
 public:
-    static void drawCross(int boardX, int boardY);
-    static void drawCircle(int boardX, int boardY);
+    static void drawCross(int row, int col);
+    static void drawCircle(int row, int col);
 };
 
 #endif
