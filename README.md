@@ -12,16 +12,16 @@ All board shapes were drawn using hardware accelerated primitive rendering, so n
 ## Dependencies
 You'll need SDL2 to be able to compile the program. To install it, use the following commands:
 
-1. **Debian**
+**Debian**
 ```
 $ sudo apt-get install libsdl2-dev
 ```
-2. **Arch**
+**Arch**
 ```
 $ sudo pacman -S sdl2
 ```
 
-3. **Red Hat**
+**Red Hat**
 ```
 $ sudo yum install SDL2-devel
 ```
