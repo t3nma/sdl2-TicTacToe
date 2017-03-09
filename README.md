@@ -9,7 +9,16 @@ All board shapes were drawn using hardware accelerated primitive rendering, so n
 
 - [ ] Scoreboard
 
+## Dependencies
+You'll need SDL2 to be able to compile the program. The following command should be enought to install it in Ubuntu:
+
+```
+$ sudo apt-get install libsdl2-2.0-0
+```
 ## Usage
 
-## Dependencies
-
+From the project source folder, run:
+```
+$ make
+$ ./tictactoe
+```
