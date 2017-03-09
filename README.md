@@ -19,6 +19,5 @@ $ sudo apt-get install libsdl2-2.0-0
 
 From the project source folder, run:
 ```
-$ make
 $ ./tictactoe
 ```
