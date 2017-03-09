@@ -10,14 +10,15 @@ All board shapes were drawn using hardware accelerated primitive rendering, so n
 - [ ] Scoreboard
 
 ## Dependencies
-You'll need SDL2 to be able to run the program. The following command should be enought to install it on **Debian** systems:
+You'll need SDL2 to be able to compile the program. The following command should be enought to install it on **Debian** systems:
 
 ```
-$ sudo apt-get install libsdl2-2.0-0
+$ sudo apt-get install libsdl2-dev
 ```
 ## Usage
 
 From the project source folder, run:
 ```
 $ ./tictactoe
+$ make
 ```
