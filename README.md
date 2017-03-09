@@ -10,11 +10,22 @@ All board shapes were drawn using hardware accelerated primitive rendering, so n
 - [ ] Scoreboard
 
 ## Dependencies
-You'll need SDL2 to be able to compile the program. The following command should be enought to install it on **Debian** systems:
+You'll need SDL2 to be able to compile the program. To install it, use the following commands:
 
+1. **Debian**
 ```
 $ sudo apt-get install libsdl2-dev
 ```
+2. **Arch**
+```
+$ sudo pacman -S sdl2
+```
+
+3. **Red Hat**
+```
+$ sudo yum install SDL2-devel
+```
+
 ## Usage
 
 From the project source folder, run:
