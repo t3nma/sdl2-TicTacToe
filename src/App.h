@@ -6,7 +6,7 @@
 #ifndef _APP_
 #define _APP_
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 #include "Game.h"
 
 class App

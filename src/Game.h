@@ -6,7 +6,7 @@
 #ifndef _GAME_
 #define _GAME_
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 #include "Board.h"
 #include "Bot.h"
 

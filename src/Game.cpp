@@ -5,7 +5,7 @@
 
 #include "Game.h"
 #include "App.h"
-#include <SDL.h>
+#include <SDL2/SDL.h>
 #include <ctime>
 #include <cstdlib>
 
