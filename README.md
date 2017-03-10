@@ -30,6 +30,6 @@ $ sudo yum install SDL2-devel
 
 From the project source folder, run:
 ```
-$ ./tictactoe
 $ make
+$ ./tictactoe
 ```
