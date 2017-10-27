@@ -5,7 +5,7 @@ This game was developed for **learning purposes**.
 The current only supported mode is single player and the bot you'll be facing randomly chooses its AI level (easy, medium or hard) at every new game.
 All board shapes were drawn using hardware accelerated primitive rendering, so no image resources were needed in the project.
 
-## LICENSE
+## License
 
 Tower Engineer is licensed under the [Do What The Fuck You Want License](https://github.com/davidgomes/tower-engineer/blob/master/LICENSE)
 
