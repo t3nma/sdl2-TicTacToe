@@ -7,7 +7,7 @@ All board shapes were drawn using hardware accelerated primitive rendering, so n
 
 ## License
 
-Tower Engineer is licensed under the [Do What The Fuck You Want License](https://github.com/davidgomes/tower-engineer/blob/master/LICENSE)
+SDL2-TicTacToe is licensed under the [Do What The Fuck You Want License](https://github.com/davidgomes/tower-engineer/blob/master/LICENSE)
 
 ## Dependencies
 You'll need SDL2 to be able to compile the program. To install it, use the following commands:
